@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Trịnh Hoàng Tú - Portfolio</title>
     <style>
         * {
             margin: 0;
@@ -345,6 +345,19 @@
             box-shadow: 0 8px 25px rgba(0,0,0,0.3);
         }
 
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+            color: white;
+            font-size: 0.9rem;
+            opacity: 0.8;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 4rem;
+        }
+
         /* Animations */
         @keyframes fadeInUp {
             from {
@@ -369,7 +382,7 @@
             }
             
             .nav-links {
-                display: none;
+                display: none; /* Can implement a hamburger menu here for mobile */
             }
             
             section {
@@ -391,7 +404,7 @@
     
     <header>
         <nav>
-            <div class="logo">Your Name</div>
+            <div class="logo">Trịnh Hoàng Tú</div>
             <ul class="nav-links">
                 <li><a href="#home">Trang chủ</a></li>
                 <li><a href="#skills">Kỹ năng</a></li>
@@ -403,44 +416,38 @@
 
     <main>
         <section id="home" class="hero">
-            <h1>Xin chào, tôi là [Tên của bạn]</h1>
-            <p>Full Stack Developer & Creative Thinker</p>
+            <h1>Xin chào, tôi là Trịnh Hoàng Tú</h1>
+            <p>Sinh viên An ninh mạng & Nhà phát triển đam mê</p>
             <a href="#projects" class="cta-button">Xem dự án của tôi</a>
         </section>
 
         <section id="skills">
             <div class="content-section">
-                <h2 class="section-title">Ngôn ngữ lập trình</h2>
+                <h2 class="section-title">Kỹ năng Công nghệ</h2>
                 <div class="skills-grid">
                     <div class="skill-card">
-                        <span class="skill-icon">⚛️</span>
-                        <h3>React</h3>
-                        <p>Frontend framework hiện đại</p>
+                        <span class="skill-icon">#️⃣</span> <h3>C# & ASP.NET</h3>
+                        <p>Thành thạo lập trình Backend & Web</p>
                     </div>
                     <div class="skill-card">
-                        <span class="skill-icon">🟨</span>
-                        <h3>JavaScript</h3>
-                        <p>Ngôn ngữ lập trình web</p>
+                        <span class="skill-icon">☕</span> <h3>Java & Android</h3>
+                        <p>Phát triển ứng dụng di động & Backend</p>
                     </div>
                     <div class="skill-card">
-                        <span class="skill-icon">🐍</span>
-                        <h3>Python</h3>
-                        <p>Backend & Data Science</p>
+                        <span class="skill-icon">🐧</span> <h3>Cybersecurity</h3>
+                        <p>Kiểm thử xâm nhập & Bảo mật mạng</p>
                     </div>
                     <div class="skill-card">
-                        <span class="skill-icon">🟢</span>
-                        <h3>Node.js</h3>
-                        <p>Server-side JavaScript</p>
+                        <span class="skill-icon">🗄️</span> <h3>Databases & SQL</h3>
+                        <p>Thiết kế & Quản lý hệ quản trị CSDL</p>
                     </div>
                     <div class="skill-card">
-                        <span class="skill-icon">🎨</span>
-                        <h3>CSS/SCSS</h3>
-                        <p>Styling & Animation</p>
+                        <span class="skill-icon">🐳</span> <h3>Git & Docker</h3>
+                        <p>Kiểm soát phiên bản & Ảo hóa Container</p>
                     </div>
-                    <div class="skill-card">
-                        <span class="skill-icon">🗄️</span>
-                        <h3>MongoDB</h3>
-                        <p>NoSQL Database</p>
+                     <div class="skill-card">
+                        <span class="skill-icon">🧠</span> <h3>AI & Emerging Tech</h3>
+                        <p>Tìm hiểu các công nghệ mới nổi</p>
                     </div>
                 </div>
             </div>
@@ -452,72 +459,68 @@
                 <div class="projects-grid">
                     <div class="project-card">
                         <div class="project-image">
-                            🌐
+                            ✈️
                         </div>
                         <div class="project-content">
-                            <h3 class="project-title">E-Commerce Website</h3>
+                            <h3 class="project-title">Flight Reservation</h3>
                             <p class="project-description">
-                                Website thương mại điện tử hoàn chỉnh với tính năng thanh toán online, 
-                                quản lý sản phẩm và hệ thống người dùng.
+                                Ứng dụng web đặt vé máy bay full-stack, tích hợp đăng nhập, tìm kiếm và quản lý vé, áp dụng MVC và xác thực an toàn.
                             </p>
                             <div class="project-tags">
-                                <span class="tag">React</span>
-                                <span class="tag">Node.js</span>
-                                <span class="tag">MongoDB</span>
+                                <span class="tag">ASP.NET C#</span>
+                                <span class="tag">MVC</span>
+                                <span class="tag">SQL</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="project-card">
                         <div class="project-image">
-                            📱
+                            💻
                         </div>
                         <div class="project-content">
-                            <h3 class="project-title">Mobile Task Manager</h3>
+                            <h3 class="project-title">Computer Store Website</h3>
                             <p class="project-description">
-                                Ứng dụng quản lý công việc trên mobile với giao diện thân thiện 
-                                và khả năng đồng bộ dữ liệu real-time.
+                                Website thương mại điện tử chuyên bán máy tính, với giao diện quản trị viên và người dùng thân thiện, dễ dàng mua sắm.
                             </p>
                             <div class="project-tags">
-                                <span class="tag">React Native</span>
-                                <span class="tag">Firebase</span>
-                                <span class="tag">Redux</span>
+                                <span class="tag">ASP.NET C#</span>
+                                <span class="tag">E-commerce</span>
+                                <span class="tag">Database</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="project-card">
                         <div class="project-image">
-                            🤖
+                            👁️
                         </div>
                         <div class="project-content">
-                            <h3 class="project-title">AI Chatbot</h3>
+                            <h3 class="project-title">Face Recognition System</h3>
                             <p class="project-description">
-                                Chatbot thông minh sử dụng AI để hỗ trợ khách hàng 24/7 
-                                với khả năng học hỏi và cải thiện theo thời gian.
+                                Hệ thống nhận diện khuôn mặt Client-Server xây dựng bằng Java, sử dụng WebSockets và tích hợp API phân tích khuôn mặt.
                             </p>
                             <div class="project-tags">
-                                <span class="tag">Python</span>
-                                <span class="tag">TensorFlow</span>
-                                <span class="tag">Flask</span>
+                                <span class="tag">Java</span>
+                                <span class="tag">WebSocket</span>
+                                <span class="tag">API Integration</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="project-card">
                         <div class="project-image">
-                            📊
+                            📚
                         </div>
                         <div class="project-content">
-                            <h3 class="project-title">Data Visualization Dashboard</h3>
+                            <h3 class="project-title">EReader App (Android)</h3>
                             <p class="project-description">
-                                Dashboard trực quan hóa dữ liệu với biểu đồ tương tác, 
-                                giúp phân tích và theo dõi KPI một cách hiệu quả.
+                                Ứng dụng Android giúp duyệt, đọc và quản lý sách điện tử, truyện tranh, mang đến trải nghiệm đọc tiện lợi trên di động.
                             </p>
                             <div class="project-tags">
-                                <span class="tag">D3.js</span>
-                                <span class="tag">Vue.js</span>
-                                <span class="tag">Python</span>
+                                <span class="tag">Java</span>
+                                <span class="tag">Android Studio</span>
+                                <span class="tag">Mobile Dev</span>
                             </div>
                         </div>
                     </div>
@@ -533,16 +536,18 @@
                         Hãy liên hệ nếu bạn muốn hợp tác hoặc có dự án thú vị!
                     </p>
                     <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
-                        <a href="mailto:your.email@example.com" class="cta-button" style="color: white;">📧 Email</a>
-                        <a href="#" class="cta-button" style="color: white;">💼 LinkedIn</a>
-                        <a href="#" class="cta-button" style="color: white;">🐙 GitHub</a>
-                    </div>
+                        <a href="mailto:tullehongphong@gmail.com" class="cta-button" style="color: white;">📧 Email</a>
+                        <a href="https://www.linkedin.com/in/trinhhoangtu/" class="cta-button" style="color: white;">💼 LinkedIn</a> <a href="https://github.com/tusvip456" class="cta-button" style="color: white;">🐙 GitHub</a> </div>
                 </div>
             </div>
         </section>
     </main>
 
     <button class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <footer>
+        <p>Built with ❤️ using Visual Studio Code, Git, and a passion for technology. © 2025 Trịnh Hoàng Tú.</p>
+    </footer>
 
     <script>
         // Smooth scrolling for navigation links
@@ -604,15 +609,12 @@
             observer.observe(section);
         });
 
-        // Add hover effect to skill cards
+        // Add hover effect to skill cards (removed pulse animation which was previously defined but not attached here)
         document.querySelectorAll('.skill-card').forEach(card => {
             card.addEventListener('mouseenter', function() {
-                this.style.animation = 'pulse 0.6s ease-in-out';
+                // You can add other hover effects here if desired
             });
-            
-            card.addEventListener('animationend', function() {
-                this.style.animation = '';
-            });
+            // Removed animationend listener for 'pulse' as pulse is not applied in CSS anymore or directly via JS.
         });
 
         // Add click effect to project cards
